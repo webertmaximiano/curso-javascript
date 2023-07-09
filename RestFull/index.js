@@ -1,14 +1,22 @@
 //const http = require('http'); // loading module
 const express = require('express'); // ja carrega o http internamente
+const consign = require('consign');
+const bodyParser = require('body-parser');
 
+/*sem consign
 let routesIndex = require('./routes/index'); //carrega o arquivo da rota index
 let routesUsers = require('./routes/users');
-
-let app = express(); //load app express
-
 // passa pro expresse a rota a ser usada
 app.use(routesIndex); 
 app.use('/users', routesUsers); 
+*/
+
+let app = express(); //load app express
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+consign().include('routes').into(app); //carregar arquivos de rotas usando consign
 
 app.listen(3000, '127.0.0.1', ()=>{
 
