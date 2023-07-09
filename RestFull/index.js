@@ -1,5 +1,21 @@
-const http = require('http'); // loading module
+//const http = require('http'); // loading module
+const express = require('express'); // ja carrega o http internamente
 
+let routesIndex = require('./routes/index'); //carrega o arquivo da rota index
+let routesUsers = require('./routes/users');
+
+let app = express(); //load app express
+
+// passa pro expresse a rota a ser usada
+app.use(routesIndex); 
+app.use('/users', routesUsers); 
+
+app.listen(3000, '127.0.0.1', ()=>{
+
+    console.log('servidor rodando!');
+});
+
+/* sem express nativo
 // create serve
 let serve = http.createServer((req, res)=>{
 
@@ -37,3 +53,4 @@ serve.listen(3000, '127.0.0.1', ()=>{
 
     console.log('servidor rodando!');
 });
+*/
