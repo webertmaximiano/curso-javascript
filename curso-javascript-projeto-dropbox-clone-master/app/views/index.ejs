@@ -215,21 +215,30 @@
             </div>
         </div>
     </div>
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-      
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
-    <script src="src/controller/DropBoxController.js"></script>
-    <script src="src/index.js" ></script>
+    <!-- Importe o Firebase SDK e o seu script principal -->
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js"></script>
+
+<!-- Importe o seu arquivo JavaScript que contém a configuração do Firebase (index.js) -->
+<script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyCGyqIw5RWe6T1gNzm_D8wSOvhgC8alo5Y",
+  authDomain: "dropbox-clone-d30e1.firebaseapp.com",
+  projectId: "dropbox-clone-d30e1",
+  storageBucket: "dropbox-clone-d30e1.appspot.com",
+  messagingSenderId: "409135357703",
+  appId: "1:409135357703:web:ccaa996b5a826864522fa2",
+  measurementId: "G-X4TYZXY51G"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<!-- Importe o arquivo do controller DropBoxController.js -->
+<script src="src/controller/DropBoxController.js"></script>
+
+<!-- Importe o arquivo index.js -->
+<script src="src/index.js" type="module" defer></script>
 
 </body>
 
