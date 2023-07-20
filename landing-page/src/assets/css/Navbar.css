@@ -1,0 +1,52 @@
+.dark .navbar-nav.light a,.light .navbar-nav a,.dark .light .navbar-nav a,.navbar-nav.light a{
+    color:#777;
+    text-decoration:none;
+    background-color:rgba(255,255,255,0)
+}
+.light .navbar-nav.dark a,.dark .navbar-nav a,.light .dark .navbar-nav a,.navbar-nav.dark a{
+    color:#aaa;
+    text-decoration:none;
+    background-color:rgba(255,255,255,0)
+}
+.dark .navbar-nav.light a.nav-link:hover,.light .navbar-nav a.nav-link:hover,.dark .light .navbar-nav a.nav-link:hover,.navbar-nav.light a.nav-link:hover,.dark .navbar-nav.light .nav-item:hover>a.nav-link,.light .navbar-nav .nav-item:hover>a.nav-link,.dark .light .navbar-nav .nav-item:hover>a.nav-link,.navbar-nav.light .nav-item:hover>a.nav-link,.dark .navbar-nav.light a.nav-link.active,.light .navbar-nav a.nav-link.active,.dark .light .navbar-nav a.nav-link.active,.navbar-nav.light a.nav-link.active{
+    color:#222;
+    text-decoration:none;
+    background-color:rgba(255,255,255,0)
+}
+.light .navbar-nav.dark a.nav-link:hover,.dark .navbar-nav a.nav-link:hover,.light .dark .navbar-nav a.nav-link:hover,.navbar-nav.dark a.nav-link:hover,.light .navbar-nav.dark .nav-item:hover>a.nav-link,.dark .navbar-nav .nav-item:hover>a.nav-link,.light .dark .navbar-nav .nav-item:hover>a.nav-link,.navbar-nav.dark .nav-item:hover>a.nav-link,.light .navbar-nav.dark a.nav-link.active,.dark .navbar-nav a.nav-link.active,.light .dark .navbar-nav a.nav-link.active,.navbar-nav.dark a.nav-link.active{
+    color:#fff;
+    text-decoration:none;
+    background-color:rgba(255,255,255,0)
+}
+.dark .nav-tabs.light a.nav-link,.light .nav-tabs a.nav-link,.dark .light .nav-tabs a.nav-link,.nav-tabs.light a.nav-link{
+    color:#A2AAB1
+}
+.light .nav-tabs.dark a.nav-link,.dark .nav-tabs a.nav-link,.light .dark .nav-tabs a.nav-link,.nav-tabs.dark a.nav-link{
+    color:rgba(255,255,255,.2)
+}
+.dark .nav-tabs.light,.light .nav-tabs,.dark .light .nav-tabs,.nav-tabs.light{
+    border-color:#D1D7DD
+}
+.light .nav-tabs.dark,.dark .nav-tabs,.light .dark .nav-tabs,.nav-tabs.dark{
+    border-color:rgba(255,255,255,.2)
+}
+.dark .nav-tabs.light a.nav-link:hover,.light .nav-tabs a.nav-link:hover,.dark .light .nav-tabs a.nav-link:hover,.nav-tabs.light a.nav-link:hover,.dark .nav-tabs.light a.nav-link.active,.light .nav-tabs a.nav-link.active,.dark .light .nav-tabs a.nav-link.active,.nav-tabs.light a.nav-link.active{
+    color:#444;
+    border-color:#444
+}
+.light .nav-tabs.dark a.nav-link:hover,.dark .nav-tabs a.nav-link:hover,.light .dark .nav-tabs a.nav-link:hover,.nav-tabs.dark a.nav-link:hover,.light .nav-tabs.dark a.nav-link.active,.dark .nav-tabs a.nav-link.active,.light .dark .nav-tabs a.nav-link.active,.nav-tabs.dark a.nav-link.active{
+    color:#FFF;
+    border-color:#FFF
+}
+.light .bg-wrap.dark, .dark .bg-wrap, .light .dark .bg-wrap, .bg-wrap.dark, .light .bg-default.dark, .dark .bg-default, .light .dark .bg-default, .bg-default.dark {
+    background-color: #232122;
+}
+.bg, .bg-wrap, .nav-bg {
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,31 @@
+/* WhatsAppButton.css */
+
+.float_button_whatsapp {
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 48px;
+    box-shadow: 1px 1px 2px #888;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right; /* Alterado para 'float: right;' */
+  }
+  
+  .float_button_whatsapp i {
+    margin-top: 10px;
+  }
+  
+  /* Estilos adicionais para tornar o botão flutuante (opcional) */
+  .float_button_whatsapp:hover {
+    background-color: #128c7e;
+    box-shadow: 2px 2px 4px #888;
+  }
+  
+  /* Adicione estas propriedades para centralizar o ícone */
+.float_button_whatsapp i {
+    line-height: 70px;
+  }
