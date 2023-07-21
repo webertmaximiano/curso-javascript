@@ -1,0 +1,14 @@
+/* Seção Separator */
+#sep-center-1 {
+    background: #f9f9f9;
+  }
+  
+  #sep-center-1 svg {
+    fill: #490a0d;
+  }
+  
+  #sep-center-1 .icon {
+    width: 64px;
+    height: 64px;
+  }
+  

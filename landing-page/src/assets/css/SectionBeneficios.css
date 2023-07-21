@@ -1,0 +1,137 @@
+.light {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.pt-50 {
+    padding-top: 50px!important;
+}
+.pb-0 {
+    padding-bottom: 0!important;
+}
+section, header, footer {
+    position: relative;
+    z-index: 1;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    background-color: #fff;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+.dark h4.light, .light h4, .dark .light h4, h4.light {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+h4.mb-20 > strong:nth-child(1) {
+    color: #000;
+    line-height: 1.2;
+    
+}
+  
+.content-box h4 {
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.dark .light, .light, .dark .light, .light {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    background-color: #fff;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content-box h4 {
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .content-box h4 strong {
+    font-size: inherit;
+    font-family: inherit;
+    vertical-align: inherit;
+  }
+ 
