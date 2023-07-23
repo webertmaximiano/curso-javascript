@@ -8,6 +8,7 @@ import SectionBeneficios from './components/SectionBeneficios';
 import SectionGaleria from './components/SectionGaleria';
 import SectionText from './components/SectionText';
 import SectionSeparator from './components/SectionSeparator';
+import SectionBeneficios6Col from './components/Sectionbeneficios6Col';
 //import Footer from './components/Footer';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
       <SectionGaleria />
       <SectionText />
       <SectionSeparator />
+      <SectionBeneficios6Col />
     </div>
   );
 }

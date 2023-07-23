@@ -3,12 +3,18 @@
     background: #f9f9f9;
   }
   
-  #sep-center-1 svg {
+  #sep-center-1 svg .icon{
     fill: #490a0d;
+    z-index: 1;  
+    position: relative;
   }
   
   #sep-center-1 .icon {
     width: 64px;
     height: 64px;
+  }
+  .col-12 {
+  position: relative;
+  z-index: 1;  
   }
   

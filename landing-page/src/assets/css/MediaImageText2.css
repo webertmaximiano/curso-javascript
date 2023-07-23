@@ -24,7 +24,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-user agent stylesheet
+
 section {
     display: block;
 }
@@ -38,18 +38,7 @@ body {
     text-align: left;
     background-color: #fff;
 }
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -ms-overflow-style: scrollbar;
-    -webkit-tap-highlight-color: transparent;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
+
 *, ::before, ::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -69,7 +58,7 @@ html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-user agent stylesheet
+
 div {
     display: block;
 }
@@ -157,18 +146,7 @@ body {
     text-align: left;
     background-color: #fff;
 }
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -ms-overflow-style: scrollbar;
-    -webkit-tap-highlight-color: transparent;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
+
 *, ::before, ::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;

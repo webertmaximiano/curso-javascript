@@ -4,7 +4,6 @@ import familiaSvg from '../assets/images/familia.svg';
 import viagemSvg from '../assets/images/viagem.svg';
 import dinheiroSvg from '../assets/images/dinheiro.svg';
 
-
 const SectionBeneficios = () => {
   return (
     <section id="benefits-3col-3" className="pt-50 text-center light pb-0">
